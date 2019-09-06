@@ -10,8 +10,8 @@
 #include<linux/in.h>
 #include <linux/types.h>
 
-#define CLI_PORT 20322
-#define SVR_PORT 30231
+#define CLI_PORT 10123
+#define SVR_PORT 20123
 #define MAX_DATA_SIZE 100
 
 struct sockaddr_in source_socket_address, dest_socket_address;
